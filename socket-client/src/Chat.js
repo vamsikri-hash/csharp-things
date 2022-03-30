@@ -13,7 +13,7 @@ const Chat = () => {
 
   useEffect(() => {
     const newConnection = new HubConnectionBuilder()
-      .withUrl("https://localhost:7244/hubs/chat")
+      .withUrl("https://localhost:7086/hubs/chat")
       .withAutomaticReconnect()
       .build();
 
